@@ -99,3 +99,45 @@ section{
     line-height: 1.2em;
     font-weight: 500;
 }
+
+.skill{
+    margin-top: 2em;
+}
+
+.skill>div>p{
+    margin-bottom: 0.7em;
+}
+
+.skill-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-list>div{
+    /* border: 1px solid red; */
+    border-radius: 3px;
+    width: 23%;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #949ea4;
+    
+}
+
+.skill-list>div>p{
+    color: #11181d;
+}
+.skill-list>div>p>span{
+    /* border: 1px solid red; */
+    margin-right: 5px;
+    
+}
+
+i{
+    color: #11181d;
+}
+
+.view{
+    
+}
