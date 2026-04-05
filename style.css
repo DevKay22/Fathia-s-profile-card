@@ -148,7 +148,7 @@ section{
     
 }
 
-i{
+.skill-a>div>p>span>i{
     color: #11181d;
 }
 
@@ -157,4 +157,30 @@ i{
  justify-content: center;
  align-items: center;   
  margin-top: 0.5em;
+}
+
+
+.contact-detail{
+    /* border: 1px solid red; */
+    margin-top: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 0.3em;
+}
+
+.contact-detail>p>span>i{
+    color: #ccc;
+    font-size: 1em;
+    /* border: 1px solid red; */
+
+    margin-right: 0.4em;
+}
+
+.contact-detail>h1{
+    margin-bottom: 0.5em;
 }
